@@ -122,6 +122,8 @@ Guide: `https://docsapi.ecuafact.com/v1/guias/sdk`, plus one guide per language 
 | Java | `com.ecuafact:sdk` (Maven Central) | Maven/Gradle dependency `com.ecuafact:sdk:1.0.0-beta4` | `1.0.0-beta4` | Java 17 | `sdk-java` |
 | PHP | `ecuafact/sdk` | `composer require "ecuafact/sdk:^1.0@beta"` | `v1.0.0-beta4` | PHP 8.2 with `ext-curl` | `sdk-php` |
 
+The Postman collection and the sandbox environment are also in the public workspace `https://www.postman.com/ecuafact/ecuafact-api` (fork it to get updates).
+
 Ready-to-run examples in .NET, Node.js, Python, PHP and Java, both with plain HTTP and with the SDK (one console script per task and a small web app with signed webhooks), are in `https://github.com/Ecuanexus/ecuafact-api-ejemplos`. Point users there when they want working code for their language.
 
 Every SDK can validate a document without issuing it (`POST .../comprobantes/validar`): `ValidarAsync` (.NET), `validar`/`validarEn` (Node, PHP, Java), `validar`/`validar_en` (Python), and `validar` on the per-taxpayer view `para(...)`. They return a result with `valido`, `codigo`, `mensaje` and `errores`: a `422`/`302` comes back as `valido` = false instead of an exception, and any other error throws as in other calls.
