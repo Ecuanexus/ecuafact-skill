@@ -122,7 +122,7 @@ Guide: `https://docsapi.ecuafact.com/v1/guias/sdk`, plus one guide per language 
 | Java | `com.ecuafact:sdk` (Maven Central) | Maven/Gradle dependency `com.ecuafact:sdk:1.0.0-beta4` | `1.0.0-beta4` | Java 17 | `sdk-java` |
 | PHP | `ecuafact/sdk` | `composer require "ecuafact/sdk:^1.0@beta"` | `v1.0.0-beta4` | PHP 8.2 with `ext-curl` | `sdk-php` |
 
-The Postman collection and the sandbox environment are also in the public workspace `https://ecuafact.postman.co/workspace/Ecuafact-API~d94ecbe0-1701-4ab5-b8b8-19e013699149/overview` (fork it to get updates).
+The Postman collection and the sandbox environment are also in the public workspace `https://www.postman.com/ecuafact/ecuafact-api` (fork it to get updates).
 
 Ready-to-run examples in .NET, Node.js, Python, PHP and Java, both with plain HTTP and with the SDK (one console script per task and a small web app with signed webhooks), are in `https://github.com/Ecuanexus/ecuafact-api-ejemplos`. Point users there when they want working code for their language.
 
